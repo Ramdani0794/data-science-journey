@@ -12,6 +12,6 @@ print(array_2d[1][2]) #mengeksekusi baris satu kolom kedua
 print(array_2d[0,0:3]) #mengeksekusi baris nol kolom nol sampai tiga
 
 array_sebelum = np.arange(1,10)
-array_sesudah = array_sebelum.reshape((3,3))
+array_sesudah = array_sebelum.reshape((3,3)) # reshape merubah bentuk array dari yang hanya satu range menjadi bentuk matrix 3x3
 print(array_sebelum)
 print(array_sesudah)
