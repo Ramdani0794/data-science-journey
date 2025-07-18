@@ -32,7 +32,7 @@ print(hasil)
 print(kali)
 print(kali_10)
 
-#fungsi agresi
+#fungsi agresi pada numpy
 data_penjualan_kota = np.array([(120,150,130),(200,180,220),(90,110,100)]) #baris = kota, kolom = penjualan
 print(np.sum(data_penjualan_kota))
 print(np.mean(data_penjualan_kota,axis=0))

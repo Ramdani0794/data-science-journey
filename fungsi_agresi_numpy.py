@@ -12,7 +12,7 @@ print(max_suhu)
 print(total_suhu)
 
 matrix = np.array([ (80,90,70),(75,85,95) ]) #disesuaikan dengan index kolom misal 80 + 75 
-mean_matrix = np.mean(matrix, axis=0) # axis= 0 artinya operasi dilakukan secara vertikal (perkolom) sedangkan jika axis=1 maka operasi dilakukan dengan secara horizontal (perbaris)
-mean_axis1 = np.mean(matrix, axis=1) # axis= 0 artinya operasi dilakukan secara vertikal (perkolom) sedangkan jika axis=1 maka operasi dilakukan dengan secara horizontal (perbaris)
+mean_matrix = np.mean(matrix, axis=0) # axis= 0 artinya operasi dilakukan secara vertikal (perkolom) 
+mean_axis1 = np.mean(matrix, axis=1) # sedangkan jika axis=1 maka operasi dilakukan dengan secara horizontal (perbaris) contoh 80+90+70 baru 75+85+95
 print(f"\nRata-rata per kolom : {mean_matrix}")
 print(f"\nRata-rata per kolom : {mean_axis1}")
