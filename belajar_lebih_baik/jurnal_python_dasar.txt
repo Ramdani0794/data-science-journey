@@ -1,0 +1,27 @@
+A. jurnal pembelajaran
+
+1. apa itu variabel dan mengapa penting?
+2. jelaskan perbedaann antara int, float, str, dan bool. berikan 1 contoh untuk masing masing?
+3. apa bedanya / dan // dalam pembagian?
+4. apa perbedaan == dan =?
+5. tuliskan 3 hal yang paling kamu pahami dalam modul ini?
+6. tuliskan 1 hal yang masih agak membingungkan?
+
+B. self-quiz
+1. apa output dari print(15 % 4)
+2. jika a = "hello" dan b = "world", apa output dari print (a + b)
+3. variabel x = 123. bagaimana cara mengetahui tipe data x?
+
+A. Jawaban
+1. variabel bisa dikatakan seperti rumah dari data, variabel adalah tempat menampung semua isi data
+2. int adalah data berisi bilangan bulat, float adalah data berisi bilangan desimal, str adalah data berisi kalimat atau huruf, dan boolean 
+   adalah tipe data kondisi yang hanya memiliki nilai True dan False
+3. / untuk pembagian float atau bisa menghasilkan desimal, sedangkan // adalah pembagian int yaitu nilainya akan dibulatkan
+4. == untuk keterangan bahwa nilai memiliki value yang sama, sedangkan = adalah keterangan sama dengan untuk memberi value suatu variabel
+5. tipe data,input,dan perbandingan
+6. aku masih agak bingung di materi = dan == selebihnya aku mengerti
+
+B. Jawaban
+1. hasilnya adalah 3 karena sisa bagi dari 15 dibagi 4 adalah 3
+2. maka outputnya adalah hello world
+3. dengan menggunakan print(type(x))
