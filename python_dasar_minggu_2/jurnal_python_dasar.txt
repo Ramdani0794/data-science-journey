@@ -1,0 +1,30 @@
+REFINE: Evaluasi & Penajaman Modul 2
+ A. Jurnal Pembelajaran (Lanjutkan di jurnal_python_dasar.txt):
+    1. Tambahkan bagian baru untuk Modul 2.
+    2. Jelaskan perbedaan utama antara List, Tuple, Set, dan Dictionary. Kapan kamu akan memilih menggunakan masing-masing? Berikan contoh skenario singkat.
+    3. Mengapa Tuple "immutable"? Apa artinya itu dalam praktik?
+    4. Jelaskan manfaat utama dari Dictionary dibandingkan List jika kamu ingin menyimpan data yang berlabel.
+    5. Tuliskan 3 hal yang paling kamu pahami di modul ini.
+    6. Tuliskan 1 hal yang masih agak membingungkan.
+ B. Self-Quiz (Jawab di jurnal):
+   1. Bagaimana cara menambahkan item "melon" ke list buah = ["apel", "pisang"]?
+   2. Jika my_data = (10, 20, 30), apakah my_data[0] = 5 akan berhasil? Mengapa atau mengapa tidak?
+   3. Apa output dari len({"a":1, "b":2, "c":3})?
+   4. Bagaimana cara mendapatkan semua kunci dari dictionary produk = {"nama": "Laptop", "harga": 12000}?
+
+A. Jawaban
+1. sudah
+2. list adalah kumpulan data yang berurutan dan dapat diubah,digunakan saat membuat tabel harga jika ada perubahan, contoh skenarionya adalah daftar harga
+   tuple adalah kumpulan data yang tidak dapat diubah datanya,digunakan untuk membuat titik lokasi atau kordinat, contoh skenarionya adalah saat menentukan radar mendapatkan
+   set adalah kumpulan data yang nilainya tidak dapat duplikat dan tidak memiliki urutan atau acak, digunakan sebagai contoh adalah daftar belanja atau mungkin id dari sebuah akun
+   dictionary adalah kumpulan data data yang isinya memiliki key dan value seperti kamus,contoh seperti halaman belakang buku telpon
+3. untuk efisiensi data dan mencegah adanya data fixs yang kemungkinan terubah
+4. dengan dictionary kita dapat memanggil sebuah data hanya dengan memanggil key nya saja dibandingkan dengan list yang harus mengetahui index posisi data
+5. aku paham dasar dari lis,tuple,dictionary dan set juga
+6. aku masih bingung dengan menganalogikan penggunaan masing masing fungsi dan kasus penggunaannya
+
+B. Jawaban
+1. buah.append("melon")
+2. hasilnya adalah eror karena my_data bertipe tuple yang artinya unimmutable atau tidak dapt diubah
+3. hasilnya adalah 3 karena value dari masing masing key berjumlah satu
+4. print(produk.keys())
