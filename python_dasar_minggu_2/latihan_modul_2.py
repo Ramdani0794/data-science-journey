@@ -70,3 +70,5 @@ print(data_mahasiswa["MHS003"]['nilai_mtk'])
 
 for mahasiswa in data_mahasiswa.values():
     print(mahasiswa['nama'], mahasiswa['jurusan'])
+
+print(len({"a":1, "b":2, "c":3}))
