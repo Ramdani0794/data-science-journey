@@ -54,3 +54,19 @@ for value in profil_teman.values():
 
 for item in profil_teman.items():
     print(item)
+
+# Dictionary tugas
+data_mahasiswa = {
+    "MHS001" : {'nama' : "Adi", 'jurusan' : "Teknik Informatika", 'nilai_mtk' : 85, 'nilai_fisika' : 78},
+    "MHS002" : {'nama' : "Bella", 'jurusan' : "Sistem Informasi", 'nilai_mtk' : 90, 'nilai_fisika' : 88},
+}
+
+data_mahasiswa['MHS003'] = {'nama' : "Adit", 'jurusan' : "Teknik Mesin", 'nilai_mtk' : 82, 'nilai_fisika' : 90}
+print(data_mahasiswa["MHS002"]['jurusan'])
+print(data_mahasiswa["MHS001"]['nilai_fisika'])
+
+data_mahasiswa["MHS003"]['nilai_mtk'] = 95
+print(data_mahasiswa["MHS003"]['nilai_mtk'])
+
+for mahasiswa in data_mahasiswa.values():
+    print(mahasiswa['nama'], mahasiswa['jurusan'])
