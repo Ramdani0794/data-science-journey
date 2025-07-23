@@ -31,7 +31,7 @@ print(array_nilai)
 
 total_nilai = np.sum(array_nilai,axis=1)
 nilai_matakuliah_pertama = array_nilai[:,0]
-nilai_lulus_80_matakuliah = nilai_matakuliah_pertama[nilai_matakuliah_pertama > 80]
+nilai_lulus_80_matakuliah = nilai_matakuliah_pertama[nilai_matakuliah_pertama > 80] # nilai matakuliah adalah nilai array dan [nilai_matakuliah] adalah boolean jadi mengambil nilai boolean yang mana true akan dieksekusi
 print(f"total nilai masing masing mahasiswa \n{total_nilai}")
 print(nilai_matakuliah_pertama)
 print(nilai_lulus_80_matakuliah)
