@@ -15,20 +15,20 @@ b = np.array([(5,2),
 https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzdkNWUxOTY4NzI5NTQ1ODBiNzJhNDA4YmNkYTI1ZDg5X0JCQTcxNzYyLTEyRTAtNDJFMS1CMzI0LTVCMTMxRjQyNEUzRF9hMzBjNmQ4MS0zYjRjLTRlOGEtOTkwNC0zYzcxMDdhMDA3Zjg="""
 
 print(f"{a}\n{b}")
-print(np.dot(a,b))
+print(np.dot(a,b)) 
 print(np.matmul(a,b))
 
 
 # biar gk pusing arti kolom harus sama
-c = np.array([(3,5,6),
+c = np.array([(3,5,6),  # artinya kolom c harus berjumlah sama dengan baris d jika kolom c berisi 3 dan baris d berisi 3 mka perkalian bisa dilakukan
               (5,6,4)])
 
 d = np.array([(2,3),
               (1,1),
               (4,2)])
 
-e = c.dot(d)
+e = c.dot(d) #bisa di simpelkan seperti ini 
 
 print(c)
 print(d)
-print(e)
+print(e) #hasil dari e akan menjadi bentuk matriks 2x2
